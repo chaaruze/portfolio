@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: left;
+  max-width: 1000px;
+  padding: 0 10%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.image {
+  margin-right: 75px;
+}
+
+.image img {
+  height: 600px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
