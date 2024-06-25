@@ -28,15 +28,15 @@
 
 .button {
   background-color: #d1a85f;
-  border-radius: 50px;
+  border-radius: 25px;
   font-size: 32px;
-  font-weight: bold;
   color: #ffffff;
   padding: 20px 60px;
   border: none;
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  margin-top: 50px;
 }
 
 .button:hover {
@@ -45,9 +45,6 @@
   transition: 0.3s ease;
 }
 
-h3 {
-  font-size: 48px;
-}
 
 h6 {
   font-size: 32px;

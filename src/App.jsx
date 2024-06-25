@@ -5,6 +5,7 @@ import About from './About/About.jsx';
 import Skillsets from './Skillsets/Skillsets.jsx';
 import Projects from './Project/Projects.jsx';
 import Footer from './Footer/Footer.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';  
 
 function App() {
     return (

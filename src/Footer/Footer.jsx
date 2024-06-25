@@ -8,7 +8,7 @@ function Footer() {
         <div className={styles.content}>
           <div className={styles.imageRow}>
             <div className={styles.image}>
-              <a href="facebook.com/chaaruze">
+              <a href="https://www.facebook.com/chaaruze/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
@@ -35,9 +35,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.bottomContent}>
-        <p>
-          0charlesomagap@gmail.com
-        </p>
+        <p>0charlesomagap@gmail.com</p>
         <p>
           &copy; {new Date().getFullYear()} John Charles Omagap. All rights
           reserved.

@@ -17,13 +17,13 @@ function Home() {
     <div id="Home" className={styles.container}>
       <div className={styles.textColumn}>
         <div>
-          <h3 className={styles.textSize}>
+          <h3 style={{ fontSize: "3rem" }}>
             <span>I'm</span>{" "}
             <span className={styles.nameSpan}>John Charles Omagap</span>
           </h3>
-          <h6 className={styles.textSize}>
+          <p>
             Beginner Full Stack Developer, <br /> Ready to Learn
-          </h6>
+          </p>
           <div className={styles.buttonContainer}>
             <button onClick={handleAboutClick} className={styles.button}>
               About Me

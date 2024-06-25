@@ -2,27 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-
-.content {
-  text-align: left;
-  max-width: 1000px;
-  padding: 0 10%;
-  display: flex;
-  align-items: flex-start;
-}
-
-.image {
-  margin-right: 75px;
+  padding: 20px;
 }
 
 .image img {
   height: 600px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
+.textContainer {
+  text-align: left;
+  max-width: 100%;
+  align-items: flex-start;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 48px;
+  border-bottom: 3px solid #d1a85f;
+  display: inline;
+  color: #d1a85f;
+}
+
+.text p {
+  margin-top: 25px;
 }
 

@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div id="Projects" className={styles.container}>
       <div className={styles.topRow}>
-        <h3>Projects</h3>
+        <h3 className={styles.title}>Projects</h3>
       </div>
       <div className={styles.content}>
         <div className={styles.image}>
