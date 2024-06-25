@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image img {
+  height: 600px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  text-align: left;
+  max-width: 100%;
+  align-items: flex-start;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 48px;
+  border-bottom: 3px solid #d1a85f;
+  display: inline;
+  color: #d1a85f;
+}
+
+.text p {
+  margin-top: 25px;
+}
+
