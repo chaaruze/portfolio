@@ -1,3 +1,13 @@
+.title {
+  margin-bottom: 20px;
+  font-size: 48px;
+  text-align: center;
+  border-bottom: 3px solid #d1a85f;
+  color: #d1a85f;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -26,36 +36,13 @@
   width: 500px;
 }
 
-.button {
-  background-color: #d1a85f;
-  border-radius: 25px;
-  font-size: 32px;
-  color: #ffffff;
-  padding: 20px 60px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-top: 50px;
-}
-
-.button:hover {
-  color: #000000;
-  font-size: 34px;
-  transition: 0.3s ease;
-}
-
-
 h6 {
   font-size: 32px;
 }
 
 .nameSpan {
-  color: black;
+  color: #d1a85f;
   transition: color 0.3s ease;
 }
 
-.nameSpan:hover {
-  color: #d1a85f;
-}
 
