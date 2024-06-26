@@ -6,6 +6,7 @@
   background-color: #fff !important;
   z-index: 1000 !important;
   padding: 20px !important;
+  scroll-behavior: smooth; /* CSS property for smooth scrolling */
 }
 
 .navLink {
@@ -51,4 +52,18 @@
 
 .active {
   color: #d1a85f !important;
+}
+
+.image {
+  margin-left: 20px;
+}
+
+.icon {
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  fill: #d1a85f;
+  transform: scale(1.2);
+  cursor: pointer;
 }
