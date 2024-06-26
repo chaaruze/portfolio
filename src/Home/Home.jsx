@@ -21,14 +21,9 @@ function Home() {
             <span>I'm</span>{" "}
             <span className={styles.nameSpan}>John Charles Omagap</span>
           </h3>
-          <p>
+          <p style={{ fontSize: "2rem" }}>
             Beginner Full Stack Developer, <br /> Ready to Learn
           </p>
-          <div className={styles.buttonContainer}>
-            <button onClick={handleAboutClick} className={styles.button}>
-              About Me
-            </button>
-          </div>
         </div>
       </div>
       <div className={styles.imageColumn}>
