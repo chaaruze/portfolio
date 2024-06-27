@@ -5,17 +5,15 @@
   width: 100% !important;
   background-color: #fff !important;
   z-index: 1000 !important;
-  padding: 20px !important;
+  scroll-behavior: smooth;
 }
 
 .navLink {
   color: #333 !important;
   text-decoration: none !important;
   text-transform: uppercase !important;
-  font-size: 30px !important;
-  padding: 10px 15px !important;
+  font-size: 24px !important;
   border: none !important;
-  margin: 0 50px !important;
   font-weight: bold !important;
   background-color: transparent !important;
 }
@@ -34,21 +32,6 @@
 }
 
 .navItem {
-  margin: 10px 50px !important;
   transition: transform 2s ease-in-out !important;
 }
 
-.navLink {
-  color: #333 !important;
-  text-decoration: none !important;
-  text-transform: uppercase !important;
-  font-size: 30px !important;
-  padding: 10px 15px !important;
-  border: none !important;
-  font-weight: bold !important;
-  background-color: transparent !important;
-}
-
-.active {
-  color: #d1a85f !important;
-}

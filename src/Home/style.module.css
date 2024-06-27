@@ -1,3 +1,13 @@
+.title {
+  margin-bottom: 20px;
+  font-size: 48px;
+  text-align: center;
+  border-bottom: 3px solid #d1a85f;
+  color: #d1a85f;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -22,40 +32,45 @@
 }
 
 .img {
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
 }
-
-.button {
-  background-color: #d1a85f;
-  border-radius: 25px;
-  font-size: 32px;
-  color: #ffffff;
-  padding: 20px 60px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-top: 50px;
-}
-
-.button:hover {
-  color: #000000;
-  font-size: 34px;
-  transition: 0.3s ease;
-}
-
 
 h6 {
   font-size: 32px;
 }
 
 .nameSpan {
-  color: black;
+  color: #d1a85f;
   transition: color 0.3s ease;
 }
 
-.nameSpan:hover {
-  color: #d1a85f;
+.scrollSpyContainer {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.scrollSpyContainer div {
+  margin: 10px 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.isCurrent {
+  background-color: #d1a85f;
+}
+
+
 
