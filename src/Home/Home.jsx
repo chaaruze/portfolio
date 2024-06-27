@@ -15,11 +15,12 @@ function Home() {
     },
   };
 
+  // Define a ref for this component
   const homeRef = useRef(null);
 
   return (
-    <div id="Home" className={styles.container}>
-      {/* <Scrollspy sectionRefs={[homeRef]}>
+    <div id="Home" ref={homeRef} className={styles.container}>
+      <Scrollspy sectionRefs={[homeRef]}>
         {({ currentElementIndexInViewport }) => (
           <div className={styles.scrollSpyContainer}>
             <div
@@ -30,8 +31,7 @@ function Home() {
             ></div>
           </div>
         )}
-        
-      </Scrollspy> */}
+      </Scrollspy>
       <div className={styles.textColumn}>
         <div>
           <h3 style={{ fontSize: "3rem" }}>
